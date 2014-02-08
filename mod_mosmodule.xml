@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="4.5.1">
+	<name>MosModuleMod</name>
+	<creationDate>01/11/2009</creationDate>
+	<author>Chanh Ong</author>
+	<copyright>(C) 2008 OngETC</copyright>
+	<license>http:/ongetc.com/gpl.html GNU/GPL</license>
+	<authorEmail>ongetc@ongetc.com</authorEmail>
+	<authorUrl>ongetc.com</authorUrl>
+	<version>1.2.9</version>
+	<description><![CDATA[This module loads the mosmodule mambot as a module (requires MosModule 1.2.6).<p />Support COAddOns in making a small donation!<p /><a href="https://www.paypal.com/xclick/business=chanh.ong@gmail.com&item_name=Donation+for+MosCmenuTree&no_shipping=1&tax=0&currency_code=USD" target="_blank"><img src="https://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" alt="Pay with PayPal - It's fast, free and save!" border="0"></a>]]></description>
+	<files>
+		<filename module="mod_mosmodule">mod_mosmodule.php</filename>
+	</files>
+	<params>
+        <param name="align" type="list" default="center" label="Align your module output" description="How to align your output in module.">
+			<option value="center">center</option>
+			<option value="left">left</option>
+			<option value="right">right</option>
+		</param>
+        <param name="command" type="text" default="" label="MosModule command" description="Write the command that normally you would write within {mosmodule } mambot tag." />
+	</params>
+</mosinstall>
